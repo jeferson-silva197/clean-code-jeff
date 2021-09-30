@@ -1,0 +1,72 @@
+name: comercio_clean_architecture
+description: Projeto para o restaurante ficticio implementando clear architecture.
+publish_to: 'none' 
+version: 1.0.0
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_modular: ^4.0.1+2
+  flutter_triple: ^1.2.4+3
+  connectivity:
+  equatable:
+  dartz:
+  string_validator: ^0.3.0
+  dio:
+  http:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  triple_test: ^0.0.8
+  mocktail:
+
+flutter:
+  uses-material-design: true
+
+  
+  assets:
+    - assets/images/
+
+  
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: assets/fonts/Raleway/Raleway-Regular.ttf
+        - asset: assets/fonts/Raleway/Raleway-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Raleway/Raleway-Bold.ttf
+          weight: 600
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
